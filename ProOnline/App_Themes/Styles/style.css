@@ -1,0 +1,73 @@
+input.ob_iDdlIE {
+    border: 0px !important;
+    background: unset !important;
+    border-radius: 0px !important;
+     }
+.nenmaunau {
+    background-color: #9585BF;
+    padding: .2em .4em .3em;
+    font-size: 12px;
+    line-height: 1;
+    height: 18px;
+    color: #FFF;
+    display: inline-block;
+}
+ .searchCss {
+            border-top: 1px solid #CCC;
+            border-left: 1px solid #CCC;
+            border-right: 1px solid #CCC;
+            border-bottom: 1px solid #CCC;
+            height: 28px !important;
+            width: 250px;
+        }
+            .searchCss:focus {
+                border-top: 1px solid #009DCC;
+                border-left: 1px solid #009DCC;
+                border-right: 1px solid #009DCC;
+                border-bottom: 1px solid #009DCC;
+            }
+
+            .searchCss:hover {
+                border-top: 1px solid #009DCC;
+                border-left: 1px solid #009DCC;
+                border-right: 1px solid #009DCC;
+                border-bottom: 1px solid #009DCC;
+            }
+            .ob_iTL {
+                height: 27px !important;
+            }
+            .ob_iCboIC {
+                margin-top: -2px !important;
+            }
+            table.calendarMonthDefault {
+    margin-left: -3px;
+}
+            .calendarCalendarDefault {
+    height: 200px;
+}
+            table.dogmaBottomLineTable {
+    display: none;
+}
+            .dogmaBottomLineContainer {
+    border-top: 1px solid grey;
+}
+/*.ob_iDdlITCN {
+    display: none !important;
+    padding-top:0px !important;
+}*/
+/*.ob_gFl .ob_gC, .ob_gFl .ob_gCW {
+    height:30px !important;
+}
+ 
+
+.ob_iTC {
+    margin-right: 2px !important;
+}
+.ob_gFALC
+			{
+			    display: none !important;
+			}
+div#ob_iDdlob_Grid1PageSizeSelectorMainContainer {
+            display: block !important;
+            padding-top: 0px !important;
+        }*/
