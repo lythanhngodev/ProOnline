@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TrangChu.master.cs" Inherits="ProOnline.TrangChu" %>
+<%@ Register Src="~/UserControl/Header.ascx" TagName="ucHeader" TagPrefix="uc" %>
+<%@ Register Src="~/UserControl/LeftBar.ascx" TagName="ucLeftBar" TagPrefix="uc" %>
+<%@ Register Src="~/UserControl/Footer.ascx" TagName="ucFooter" TagPrefix="uc" %>
+<!DOCTYPE html>
+<html lang="vi">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title>Quản lý dự án</title>
+    <meta name="description" content="Quản lý dự án" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/css/fonts.googleapis.com.css" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/material-preloader/css/materialPreloader.css"/>
+    <link rel="stylesheet" href="/Content/themes/Theme_1/css/jquery-ui.custom.min.css" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/css/jquery.gritter.min.css" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/css/ace.min.css" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/css/style.css" />
+    <link rel="stylesheet" href="/Content/themes/Theme_1/css/bootstrap-datepicker3.min.css" />
+    <script src="/Content/themes/Theme_1/js/ace-extra.min.js"></script>
+    <link href="/App_Themes/Styles/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body
+        {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 12px;
+            font-size-adjust: inherit;
+            font-stretch: normal;
+            font-variant: normal;
+            font-style: normal;
+        }
+    </style>
+
+</head>
+<body class="no-skin">
+     <form id="form1" runat="server">
+    <input id="gritter-light" checked="" type="checkbox" class="ace ace-switch ace-switch-5" />
+    <uc:ucHeader runat="server"></uc:ucHeader>
+    <div class="main-container ace-save-state" id="main-container">
+        <uc:ucLeftBar runat="server"></uc:ucLeftBar>
+        <div class="main-content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+        </div>
+
+        <uc:ucFooter runat="server"></uc:ucFooter>
+        <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+            <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+        </a>
+    </div>
+</form>
+    
+    <script src="/Content/themes/Theme_1/js/jquery-2.1.4.min.js"></script>
+    <script src="/Content/themes/Theme_1/js/bootstrap.min.js"></script>
+    <script src="/Content/themes/Theme_1/js/jquery.dataTables.min.js"></script>
+    <script src="/Content/themes/Theme_1/js/jquery.dataTables.bootstrap.min.js"></script>
+    <script src="/Content/themes/Theme_1/material-preloader/js/materialPreloader.js"></script>
+    <script src="/Content/themes/Theme_1/js/jquery.gritter.min.js"></script>
+    <script src="/Content/themes/Theme_1/js/bootbox.js"></script>
+    <script src="/Content/themes/Theme_1/js/ace-elements.min.js"></script>
+    <script src="/Content/themes/Theme_1/js/ace.min.js"></script>
+    <script src="/Content/themes/Theme_1/js/dataTables.select.min.js"></script>
+    <script src="/Content/themes/Theme_1/js/bootstrap-datepicker.min.js"></script>
+    <script src="/js/NTSLibrary.js"></script>
+    <script src="/Scripts/header.js"></script>
+</body>
+</html>
